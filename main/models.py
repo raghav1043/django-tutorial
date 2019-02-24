@@ -1,6 +1,5 @@
 from django.db import models
 from datetime import datetime
-#from .models import Tutorial
 
 class TutorialCategory(models.Model):
 	tutorial_category=models.CharField(max_length=200)
